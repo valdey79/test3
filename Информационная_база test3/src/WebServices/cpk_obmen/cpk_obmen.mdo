@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e4f5701-c05c-4b23-a0e9-f15b7284b935">
+  <name>cpk_obmen</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cpk obmen</value>
+  </synonym>
+  <namespace>http://localhost/upp_ws</namespace>
+  <descriptorFileName>ws1.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="22669f8e-eb03-442a-936d-97988e2b78dc">
+    <name>getQuery</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get query</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>getQuery</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b372ed38-c4be-4599-8ff5-d2657afbe443">
+      <name>text</name>
+      <synonym>
+        <key>ru</key>
+        <value>Text</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>
